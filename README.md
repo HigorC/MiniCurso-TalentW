@@ -1,2 +1,3 @@
 # MiniCurso-TalentW
-Projeto final do mini-curso TalentW
+Projeto final do minicurso TalentW, utilizando Html, Css e JavaScript
+
