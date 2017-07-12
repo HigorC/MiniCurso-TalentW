@@ -10,6 +10,7 @@
     <!--CSS da página-->
       <link rel="stylesheet" href="../CSS/style.css">
     <link rel="stylesheet" href="../CSS/normalize.css">
+    <link rel="stylesheet" href="../CSS/calculadora.css">
 
     <!--Font Roboto-->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -27,6 +28,38 @@
 
         </ul>
     </header>
+    <div class="calculadora">
+        <input class="visor" maxlength="20">
+
+        <table class="teclado">
+            <tr>
+
+                <td> <button id="um">1</button></td>
+                <td> <button class="numero" id="dois">2</button></td>
+                <td><button class="numero" id="tres">3</button></td>
+                <td> <button class="sinal" id="mais">+</button></td>
+            </tr>
+            <tr>
+                <td> <button class="numero" id="quatro">4</button></td>
+                <td><button class="numero" id="cinco">5</button></td>
+                <td> <button class="numero" id="seis">6</button></td>
+                <td><button class="sinal" id="menos">-</button></td>
+            </tr>
+            <tr>
+                <td><button class="numero" id="sete">7</button></td>
+                <td> <button class="numero" id="oito">8</button></td>
+                <td> <button class="numero" id="nove">9</button></td>
+                <td><button class="sinal" id="vezes">*</button></td>
+            </tr>
+            <tr>
+                <td> <button class="clear" id="clear">C</button></td>
+                <td> <button class="numero" id="zero">0</button></td>
+                <td><button class="igual" id="igual">=</button></td>
+                <td><button class="sinal" id="dividir">/</button></td>
+            </tr>
+        </table>
+    </div>
+    <script src="../scripts/calculadora.js"> </script>
     <script src="../JavaScript/index.js"></script>
 </body>
 
