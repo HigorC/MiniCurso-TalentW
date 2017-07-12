@@ -1,0 +1,38 @@
+.conteudo{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.centralizado{
+ text-align: center;
+}
+
+.introducao{
+   
+    margin-bottom: 30px;
+}
+
+.indice{
+    display: left;
+    text-align: justify;
+}
+
+img.logo-talentw{
+    width: 500px;
+    float: right;
+    padding: 5px;
+    border: 1px solid #ccc;
+    margin: 30px;
+
+}
+
+h2{
+    margin-top: 0px;
+}
+ul{
+    list-style: none;
+}
+
+p{
+    font-size: 18px;
+}
