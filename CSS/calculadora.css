@@ -1,0 +1,40 @@
+
+.calculadora {
+    background: darkgray;
+    width: 200px;
+    margin: auto;
+    padding: 20px;
+    border: 5px solid darkslategrey;
+    padding: 0px;
+}
+
+.sinal {
+    background-color: gray;
+}
+
+.visor {
+    height: 50px;
+    width: 200px;
+    margin: 0px;
+    border: 0px;
+}
+
+button{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    background-color: darkgray;
+}
+
+button:hover{
+    color: #FFF;
+    background-color: rgba(47, 79, 79, 1)
+}
+
+td{
+    padding: 0px;
+    border: 0px;
+}
