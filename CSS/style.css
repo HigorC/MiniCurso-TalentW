@@ -37,3 +37,13 @@ ul.barra-navegacao a.ativado {
     background-color: #4CAF50;
     color: white;
 }
+
+.conteudo{
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+body{
+    font-size: 17px;
+}

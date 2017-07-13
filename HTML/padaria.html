@@ -10,6 +10,7 @@
     <!--CSS da página-->
     <link rel="stylesheet" href="../CSS/style.css">
     <link rel="stylesheet" href="../CSS/normalize.css">
+    <link rel="stylesheet" href="../CSS/padaria.css">
 
     <!--Font Roboto-->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -23,10 +24,59 @@
             <li><a href="calculadora.html">Calculadora</a></li>
             <li><a href="imc.html">IMC</a></li>
             <li><a href="huebr.html">Hue Hue Br</a></li>
- 
-
         </ul>
     </header>
+
+    <div class="conteudo">
+        <article class="itens">
+            <section class="pao">
+                <h2>Pão Francês</h2>
+                <img src="../Imagens/pao.jpg" alt="">
+                <p>O Pão Francês, também conhecido como marraqueta ou pan de batalla na Bolívia, ou pan francés no sul do Chile
+                    ou ainda pan batido, é um tipo de pão feito de farinha, sal, água e fermento.</p>
+                <p>Valor: R$ 0,30 a unidade</p>
+                <label for="qtd-pao">Informe a quantidade de pão(es):</label>
+                <input type="number" id="qtd-pao" onblur="valida">
+                <!-- BOTAR FUÇÃO -->
+                <div class="clear"></div>
+            </section>
+
+            <section class="queijo">
+                <h2>Queijo Mussarela</h2>
+                <img src="../Imagens/queijo.jpg" alt="">
+                <p>A mozarela, muçarela ou mussarela (em italiano, mozzarella) é uma variedade de queijo de massa filada com
+                    origem na comuna de Aversa, na província de Caserta, na região da Campânia, na Itália.</p>
+                <p>Valor: R$ 20/kg</p>
+                <label for="qtd-queijo">Informe um peso:</label>
+                <input type="text">
+                <div class="clear"></div>
+            </section>
+
+            <section class="bolo">
+                <h2>Bolo com cobertura de chocolate</h2>
+                <img src="../Imagens/bolo.jpg" alt="">
+                <p>Bolo de chocolate é um bolo simples ou confeitado, que leva chocolate derretido ou em pó, ou ainda cacau
+                    em pó em sua confecção. Os ingredientes mais comuns são o ovo, o leite, a manteiga ou substituto, açúcar
+                    e fermento.</p>
+                <p>Fatia: R$ 6,00</p>
+
+                <label for="qtd-bolo">Informe a quantidade de fatias: </label>
+                <select id="qtd-bolo">
+                    <option value="Nenhuma">Nenhuma</option>
+                    <option value="1 fatia">Uma</option>
+                    <option value="2 fatias">Duas</option>
+                </select>
+                <div class="clear"></div>
+            </section>
+        </article>
+
+        <section class="total">
+            <h2>Total</h2>
+            <p class="p-total">O valor total dos seus produtos foi de: R$ 0,00</p>
+        </section>
+
+
+    </div>
     <script src="../JavaScript/index.js"></script>
 </body>
 

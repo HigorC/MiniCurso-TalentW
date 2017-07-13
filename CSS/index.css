@@ -1,38 +1,38 @@
-.conteudo{
-    width: 960px;
-    margin: 0 auto;
-}
-
 .centralizado{
  text-align: center;
 }
 
 .introducao{
-   
-    margin-bottom: 30px;
+   margin-bottom: 30px;
 }
 
-.indice{
-    display: left;
+.justificado{
     text-align: justify;
 }
 
-img.logo-talentw{
-    width: 500px;
-    float: right;
-    padding: 5px;
-    border: 1px solid #ccc;
-    margin: 30px;
-
+.indice{
+    margin-bottom: 100px;
 }
 
-h2{
-    margin-top: 0px;
+hr{
+    margin: 50px 0px;
 }
-ul{
+
+.logos ul{
+    padding: 0px;
     list-style: none;
 }
 
-p{
-    font-size: 18px;
+.logos li{
+    display: inline;
+}
+
+img.logo{
+    width: 250px;
+    height: 200px;
+}
+
+.logos{
+    width: 760px;
+    margin: 0px auto;
 }
