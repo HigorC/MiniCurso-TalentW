@@ -36,7 +36,7 @@
                     ou ainda pan batido, é um tipo de pão feito de farinha, sal, água e fermento.</p>
                 <p>Valor: R$ 0,30 a unidade</p>
                 <label for="qtd-pao">Informe a quantidade de pão(es):</label>
-                <input type="number" id="qtd-pao" onblur="valida">
+                <input type="number" id="qtd-pao" value="0">
                 <!-- BOTAR FUÇÃO -->
                 <div class="clear"></div>
             </section>
@@ -48,7 +48,7 @@
                     origem na comuna de Aversa, na província de Caserta, na região da Campânia, na Itália.</p>
                 <p>Valor: R$ 20/kg</p>
                 <label for="qtd-queijo">Informe um peso:</label>
-                <input type="text">
+                <input type="text" id="qtd-queijo" value="0">
                 <div class="clear"></div>
             </section>
 
@@ -62,9 +62,9 @@
 
                 <label for="qtd-bolo">Informe a quantidade de fatias: </label>
                 <select id="qtd-bolo">
-                    <option value="Nenhuma">Nenhuma</option>
-                    <option value="1 fatia">Uma</option>
-                    <option value="2 fatias">Duas</option>
+                    <option value="0">Nenhuma</option>
+                    <option value="1">Uma</option>
+                    <option value="2">Duas</option>
                 </select>
                 <div class="clear"></div>
             </section>
@@ -72,12 +72,11 @@
 
         <section class="total">
             <h2>Total</h2>
-            <p class="p-total">O valor total dos seus produtos foi de: R$ 0,00</p>
+            <input id="btn-calcular" type="button" value="Calcular">
+            <p>O valor total dos seus produtos foi de <spam id="p-total">R$ 0</spam></p>
         </section>
-
-
     </div>
-    <script src="../JavaScript/index.js"></script>
+    <script src="../JavaScript/padaria.js"></script>
 </body>
 
 </html>
