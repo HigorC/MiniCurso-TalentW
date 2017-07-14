@@ -11,10 +11,34 @@ section img{
     clear: both;
 }
 
-section input{
+#qtd-pao{
     width: 40px;
 }
 
 section{
     margin-bottom: 100px;
+}
+
+#qtd-queijo{
+    width: 70px;
+}
+
+#btn-calcular{
+text-shadow: 0px 0px 2px #000;
+    float: right;
+    padding: 5px 20px;
+    color: #fff;
+    background: linear-gradient(#1E90FF,#00BFFF);
+    border: 1px solid #ccc;
+    /*border: none;*/
+    border-radius: 3px;
+}
+
+#btn-calcular:hover{
+     background: linear-gradient(#4682B4 ,#0000FF);
+}
+
+#p-total{
+    font-size: 18px;
+    font-weight: bold;
 }
