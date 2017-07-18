@@ -28,11 +28,12 @@ hr{
 }
 
 img.logo{
-    width: 250px;
-    height: 200px;
+    width: 600px;
+    /*margin: 0px auto;*/
+    /*height: 200px;*/
 }
 
 .logos{
-    width: 760px;
+    width: 600px;
     margin: 0px auto;
 }
