@@ -1,0 +1,49 @@
+
+
+.questao h1{
+  font-size: 2em; 
+ font-style: italic;
+  font-weight: normal; 
+    margin: 0px;
+}
+
+/* .q1{
+     display: none; 
+} */
+
+.questao p{
+    font-size: 5em;
+}
+
+.questao button{
+    font-size: 2em;
+    padding: 10px 20px;
+    margin: 0px 60px;
+    width: 150px;
+    height: 150px;
+}
+
+.questionario{
+    text-align: center;
+}
+.q1 button{
+    color: #fff;
+    border-radius: 100%;
+    border: none;
+}
+
+.q1 .btn-sim:hover{
+    background-color: #228B22;
+}
+
+.q1 .btn-nao:hover{
+    background-color: #B22222;
+}
+
+
+.q1 .btn-sim{
+ background-color: #00FF00;
+}
+.q1 .btn-nao{
+ background-color: #FF4500;
+}

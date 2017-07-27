@@ -38,7 +38,7 @@ ul.barra-navegacao a.ativado {
     color: white;
 }
 
-.conteudo{
+.conteudo,.questionario{
     width: 960px;
     margin: 0 auto;
     padding-top: 20px;
@@ -46,4 +46,8 @@ ul.barra-navegacao a.ativado {
 
 body{
     font-size: 17px;
+}
+
+button:focus{
+ outline: 0; 
 }
