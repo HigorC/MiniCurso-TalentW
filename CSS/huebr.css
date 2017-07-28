@@ -47,3 +47,54 @@
 .q1 .btn-nao{
  background-color: #FF4500;
 }
+
+.resposta h1{
+    font-size: 2em;
+}
+
+.esconderDiv{
+    display: none;
+}
+
+.exibiDiv{
+    display: inline;
+}
+.frenetico{
+     animation: frenetico 0.9s infinite;
+}
+
+@keyframes frenetico {
+  0% {
+    background-color: #001F3F;
+  }
+  10%{
+      background-color: green;
+  }
+  20%{
+      background-color: blue;
+  }
+  30%{
+      background-color: pink;
+  }
+  40%{
+      background-color: purple;
+  }
+  50%{
+      background-color: brown;
+  }
+  60%{
+      background-color: yellow;
+  }
+  70%{
+      background-color: lightblue;
+  }
+  80%{
+      background-color: lightcyan;
+  }
+  90%{
+      background-color: lightslategray;
+  }
+  100% {
+    background-color: #FF4136;
+  }
+}
