@@ -47,3 +47,34 @@
 .q1 .btn-nao{
  background-color: #FF4500;
 }
+/* //////////////////////////////////////////////////////////////// */
+.q2 p{
+    font-size: 4em;
+}
+
+.q2 button{
+    color: #fff;
+    border-radius: 10%  50%;
+    border: none;
+    width: 150px;
+    height: 90px;
+}
+
+/* .q2 #btn-sim:hover{
+    background-color: #2F4F4F;
+}
+
+.q2 #btn-nao:hover{
+    background-color: #800000;
+} */
+
+.q2 #btn-sim{
+ background-color: #00FA9A;
+}
+.q2 #btn-nao{
+ background-color: #FF6347;
+}
+
+.q2 #btn-sim:active{
+background-color: #2F4F4F;
+}
