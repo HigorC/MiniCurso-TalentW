@@ -1,10 +1,10 @@
 
 .calculadora {
     background: darkgray;
-    width: 200px;
+    width: 240px;
     margin: auto;
     padding: 20px;
-    border: 5px solid darkslategrey;
+    border: 10px solid darkslategrey;
     padding: 0px;
 }
 
@@ -13,16 +13,16 @@
 }
 
 #visor {
-    height: 50px;
-    width: 200px;
+    height: 60px;
+    width: 240px;
     margin: 0px;
     border: 0px;
 }
 
 button{
     position: relative;
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
     margin: 0px;
     border: 0px;
     padding: 0px;
@@ -41,3 +41,9 @@ td{
  table {
      border-spacing: 0px;
  }
+
+ body {
+    background: url("../Imagens/Prof.Angelo.jpg");
+    background-size: 80px 80px;
+    background-repeat: repeat;
+}
