@@ -8,7 +8,8 @@
 
     <!--Importações-->
     <!--CSS da página-->
-     <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/imc.css">
     <link rel="stylesheet" href="../CSS/normalize.css">
 
     <!--Font Roboto-->
@@ -23,10 +24,59 @@
             <li><a href="calculadora.html">Calculadora</a></li>
             <li><a class="ativado" href="imc.html">IMC</a></li>
             <li><a href="huebr.html">Hue Hue Br</a></li>
-   
-
         </ul>
     </header>
+
+    <div class="container">
+        <section>
+            <h2>Meus Pacientes</h2>
+            <table cellpadding="5px" cellspacing="0" border="1px">
+                <tr>
+                    <th>Nome</th>
+                    <th>Peso(Kg)</th>
+                    <th>Altura(m)</th>
+                    <th>IMC</th>
+                </tr>
+                <tr class="paciente">
+                    <td class="info-nome">Leonardo</td>
+                    <td class="info-peso">57</td>
+                    <td class="info-altura">1.67</td>
+                    <td class="info-imc"></td>
+                </tr>
+                <tr class="paciente">
+                    <td class="info-nome">Paulo</td>
+                    <td class="info-peso">100</td>
+                    <td class="info-altura">2</td>
+                    <td class="info-imc"></td>
+                </tr>
+            </table>
+            <button id="calcula-imcs" class="botao">Calcular Imcs</button>
+        </section>
+
+        <section>
+            <h2>Adicionar novo paciente</h2>
+            <form>
+                <fieldset>
+                    <label for="nome">Nome:</label>
+                    <input id="campo-nome" type="text" placeholder="Augusto">
+                </fieldset>
+                <fieldset class="campo-medio">
+                    <label for="peso">Peso:</label>
+                    <input id="campo-peso" type="text" placeholder="76.20">
+                </fieldset>
+                <fieldset class="campo-medio">
+                    <label for="altura">Altura:</label>
+                    <input id="campo-altura" type="text" placeholder="1.63">
+                </fieldset>
+                <button id="adicionar-paciente" class="botao bto-principal">Adicionar</button>
+            </form>
+        </section>
+    </div>
+    <!-- <script src="../JavaScript/percorre.js"></script>
+    <script src="../JavaScript/intro.js"></script>
+    <script src="../JavaScript/imprime-nome.js"></script> -->
+    <script src="../JavaScript/imc.js"></script>
+
     <script src="../JavaScript/index.js"></script>
 </body>
 
