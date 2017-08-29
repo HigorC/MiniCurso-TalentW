@@ -32,20 +32,51 @@
     border: none;
 }
 
-.q1 .btn-sim:hover{
+.q1  #btn-sim:hover{
     background-color: #228B22;
 }
 
-.q1 .btn-nao:hover{
+.q1  #btn-nao:hover{
     background-color: #B22222;
 }
 
 
-.q1 .btn-sim{
+.q1  #btn-sim{
  background-color: #00FF00;
 }
-.q1 .btn-nao{
+.q1  #btn-nao{
  background-color: #FF4500;
+}
+/* //////////////////////////////////////////////////////////////// */
+.q2 p{
+    font-size: 4em;
+}
+
+.q2 button{
+    color: #fff;
+    border-radius: 10%  50%;
+    border: none;
+    width: 150px;
+    height: 90px;
+}
+
+/* .q2 #btn-sim:hover{
+    background-color: #2F4F4F;
+}
+
+.q2 #btn-nao:hover{
+    background-color: #800000;
+} */
+
+.q2 #btn-sim{
+ background-color: #00FA9A;
+}
+.q2 #btn-nao{
+ background-color: #FF6347;
+}
+
+.q2 #btn-sim:active{
+background-color: #2F4F4F;
 }
 
 .resposta h1{
@@ -65,31 +96,31 @@
 
 @keyframes frenetico {
   0% {
-    background-color: #001F3F;
+    background-color: #7B68EE;
   }
   10%{
-      background-color: green;
+      background-color: #FF00FF;
   }
   20%{
-      background-color: blue;
+      background-color: #FF7F50;
   }
   30%{
-      background-color: pink;
+      background-color: #00FFFF;
   }
   40%{
-      background-color: purple;
+      background-color: #FFFF00;
   }
   50%{
-      background-color: brown;
+      background-color: #00FA9A;
   }
   60%{
-      background-color: yellow;
+      background-color: #00FF00;
   }
   70%{
-      background-color: lightblue;
+      background-color: #8B0000;
   }
   80%{
-      background-color: lightcyan;
+      background-color: #DC143C;
   }
   90%{
       background-color: lightslategray;

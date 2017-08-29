@@ -69,8 +69,7 @@ function consoleVisor() {
 }
 
 function somar() {
-    if (sinal != null && visor.value != null) {
-        x = visor.value;
+    if (sinal != null) {
         sinal = "+";
     } else {
         x = visor.value;
@@ -81,8 +80,7 @@ function somar() {
 }
 
 function subtrair() {
-    if (sinal != null && visor.value != null) {
-        x = visor.value;
+    if (sinal != null) {
         sinal = "-";
     } else {
         x = visor.value;
@@ -92,9 +90,7 @@ function subtrair() {
 }
 
 function multiplicar() {
-    if (sinal != null && visor.value != null 
-    ) {
-        x = visor.value;
+    if (sinal != null) {
         sinal = "*";
     } else {
         x = visor.value;
@@ -105,8 +101,8 @@ function multiplicar() {
 }
 
 function dividir() {
-    if (sinal != null && visor.value != null) {
-        x = visor.value;
+    if (sinal != null) {
+
         sinal = "/";
     } else {
         x = visor.value;
